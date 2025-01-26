@@ -11,7 +11,7 @@ from telegram.ext import ContextTypes
 token = os.environ['BOT_TOKEN']
 admin = os.environ['BOT_ADMIN']
 username_regex = re.compile("^[a-zA-Z0-9]+$")
-command = 'bash <(curl -sL https://raw.githubusercontent.com/aleskxyz/reality-ezpz/master/reality-ezpz.sh) '
+command = 'bash <(curl -sL https://raw.githubusercontent.com/xriccimlg/-/main/reality.sh) '
 
 async def get_users_ezpz():
     local_command = command + '--list-users'
